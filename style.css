@@ -1,0 +1,66 @@
+body {
+  background-color: #f3f6ff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.position-section {
+  width: 100%;
+}
+.position-section .container {
+  width: 732px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 767px) {
+  .position-section .container {
+    width: auto;
+  }
+}
+.position-section .container .positions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.position-section .container .positions .position {
+  margin: 0 auto;
+  border: 1px solid #e1e1e1;
+  border-radius: 15px;
+  padding: 30px 20px;
+  background-color: white;
+}
+.position-section .container .positions .position .flex {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.position-section .container .positions .position .flex .position-img {
+  width: 40px;
+  height: 40px;
+}
+.position-section .container .positions .position .flex .position-name {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+}
+.position-section .container .positions .position .open-btn {
+  width: 100%;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  background-color: white;
+  transition: 0.3s all ease;
+}
+.position-section .container .positions .position .open-btn:hover {
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
